@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request.Tests/Engine.InOut.Request.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request.Tests/Engine.InOut.Request.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request.Tests/Engine.InOut.Request.Tests.csproj",
+        "projectName": "EarlyFuncPack.Http.Engine.InOut.Request.Tests",
+        "projectPath": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request.Tests/Engine.InOut.Request.Tests.csproj",
+        "packagesPath": "/Users/pavelmosk/.nuget/packages/",
+        "outputPath": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pavelmosk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/Users/pavelmosk/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EarlyFuncPack.Http.Engine.InOut.Request": {
+              "target": "Package",
+              "version": "[0.0.1-preview.1.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "PrimeFuncPack.UnitTest.Data": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

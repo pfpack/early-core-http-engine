@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0lYIEANDhtpMsUTk40TmdQ/hvXEP70RBP7r8SLdbyMerggoAjTMpT7meEvWwQbO5NxMLwnbzd39f7HURubmfOQ==",
+  "success": true,
+  "projectFilePath": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request/Engine.InOut.Request.csproj",
+  "expectedPackageFiles": [
+    "/Users/pavelmosk/.nuget/packages/earlyfuncpack.core.enumeration/0.1.1/earlyfuncpack.core.enumeration.0.1.1.nupkg.sha512",
+    "/Users/pavelmosk/.nuget/packages/earlyfuncpack.core.enumeration.extensions/0.1.1/earlyfuncpack.core.enumeration.extensions.0.1.1.nupkg.sha512",
+    "/Users/pavelmosk/.nuget/packages/primefuncpack.core.optional/1.1.0/primefuncpack.core.optional.1.1.0.nupkg.sha512",
+    "/Users/pavelmosk/.nuget/packages/primefuncpack.core.unit/1.1.0/primefuncpack.core.unit.1.1.0.nupkg.sha512",
+    "/Users/pavelmosk/.nuget/packages/primefuncpack.primitives/1.1.2/primefuncpack.primitives.1.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

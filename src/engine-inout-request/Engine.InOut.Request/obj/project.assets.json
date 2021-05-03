@@ -1,0 +1,196 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "EarlyFuncPack.Core.Enumeration/0.1.1": {
+        "type": "package",
+        "dependencies": {
+          "PrimeFuncPack.Primitives": "1.1.2"
+        },
+        "compile": {
+          "lib/net5.0/EarlyFuncPack.Core.Enumeration.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/EarlyFuncPack.Core.Enumeration.dll": {}
+        }
+      },
+      "EarlyFuncPack.Core.Enumeration.Extensions/0.1.1": {
+        "type": "package",
+        "dependencies": {
+          "EarlyFuncPack.Core.Enumeration": "0.1.1",
+          "PrimeFuncPack.Core.Optional": "1.1.0"
+        },
+        "compile": {
+          "lib/net5.0/EarlyFuncPack.Core.Enumeration.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/EarlyFuncPack.Core.Enumeration.Extensions.dll": {}
+        }
+      },
+      "PrimeFuncPack.Core.Optional/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "PrimeFuncPack.Core.Unit": "1.1.0",
+          "PrimeFuncPack.Primitives": "1.1.0"
+        },
+        "compile": {
+          "lib/net5.0/PrimeFuncPack.Core.Optional.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PrimeFuncPack.Core.Optional.dll": {}
+        }
+      },
+      "PrimeFuncPack.Core.Unit/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/PrimeFuncPack.Core.Unit.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PrimeFuncPack.Core.Unit.dll": {}
+        }
+      },
+      "PrimeFuncPack.Primitives/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/PrimeFuncPack.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PrimeFuncPack.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EarlyFuncPack.Core.Enumeration/0.1.1": {
+      "sha512": "8/++BNrATOmhV8rlr4dsxAb/uRBpPBF3veV+Uvjea6yGM0R5n+H3pSFlxYGSXAei7EnciM/4Y4Va8Dee9T3lZg==",
+      "type": "package",
+      "path": "earlyfuncpack.core.enumeration/0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE",
+        "earlyfuncpack.core.enumeration.0.1.1.nupkg.sha512",
+        "earlyfuncpack.core.enumeration.nuspec",
+        "lib/net5.0/EarlyFuncPack.Core.Enumeration.dll"
+      ]
+    },
+    "EarlyFuncPack.Core.Enumeration.Extensions/0.1.1": {
+      "sha512": "JVNQrKcWZ2YX7BTknKpURYBVBY9g6bVJTD0TeMhOCPhP7qQaeHPduE2BK15AwtAaiRTC7Lr0v5AJqWZ9M9ATMQ==",
+      "type": "package",
+      "path": "earlyfuncpack.core.enumeration.extensions/0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE",
+        "earlyfuncpack.core.enumeration.extensions.0.1.1.nupkg.sha512",
+        "earlyfuncpack.core.enumeration.extensions.nuspec",
+        "lib/net5.0/EarlyFuncPack.Core.Enumeration.Extensions.dll"
+      ]
+    },
+    "PrimeFuncPack.Core.Optional/1.1.0": {
+      "sha512": "lsAAkZ966Pfr+CIHnh65+TsgRKNu4tWl6iFxmr1l0vcFgKGVbgWZvjaOdOZArQATbUDOH9SKrPQz4QSP/1yRIg==",
+      "type": "package",
+      "path": "primefuncpack.core.optional/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net5.0/PrimeFuncPack.Core.Optional.dll",
+        "primefuncpack.core.optional.1.1.0.nupkg.sha512",
+        "primefuncpack.core.optional.nuspec"
+      ]
+    },
+    "PrimeFuncPack.Core.Unit/1.1.0": {
+      "sha512": "zIeKA0Rywsymw3yV7Blzyb7Thk8csgvJYlM4tLAeu7baicdPSOvEpxa0+puPXck37fzL0uu4jPEpt6KrJA2vJg==",
+      "type": "package",
+      "path": "primefuncpack.core.unit/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net5.0/PrimeFuncPack.Core.Unit.dll",
+        "primefuncpack.core.unit.1.1.0.nupkg.sha512",
+        "primefuncpack.core.unit.nuspec"
+      ]
+    },
+    "PrimeFuncPack.Primitives/1.1.2": {
+      "sha512": "VTNebnYACuLcexsbmg9a/hbhnaBcDT5drobMLttK86nCPIgdaU4QPBFd1ycf73kCqSh/DAgy9yhRXHYw34eA/Q==",
+      "type": "package",
+      "path": "primefuncpack.primitives/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net5.0/PrimeFuncPack.Primitives.dll",
+        "primefuncpack.primitives.1.1.2.nupkg.sha512",
+        "primefuncpack.primitives.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "EarlyFuncPack.Core.Enumeration.Extensions >= 0.1.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/pavelmosk/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "0.0.1-preview.1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request/Engine.InOut.Request.csproj",
+      "projectName": "EarlyFuncPack.Http.Engine.InOut.Request",
+      "projectPath": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request/Engine.InOut.Request.csproj",
+      "packagesPath": "/Users/pavelmosk/.nuget/packages/",
+      "outputPath": "/Users/pavelmosk/PFPack/early-http-engine/src/engine-inout-request/Engine.InOut.Request/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/pavelmosk/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "/Users/pavelmosk/NuGet": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "EarlyFuncPack.Core.Enumeration.Extensions": {
+            "target": "Package",
+            "version": "[0.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
