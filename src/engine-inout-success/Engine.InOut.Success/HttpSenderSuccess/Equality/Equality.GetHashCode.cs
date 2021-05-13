@@ -4,7 +4,7 @@ using System;
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderSuccess<T>
+    partial struct HttpSenderSuccess<TContent>
     {
         public override int GetHashCode()
             =>

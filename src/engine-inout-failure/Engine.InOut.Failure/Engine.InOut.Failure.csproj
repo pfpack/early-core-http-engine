@@ -10,8 +10,8 @@
     <Description>PrimeFuncPack Http Engine</Description>
     <Copyright>Copyright © 2021 Andrei Sergeev, Pavel Moskovoy</Copyright>
     <RootNamespace>PrimeFuncPack</RootNamespace>
-    <AssemblyName>EarlyFuncPack.Http.Engine.InOut.Request</AssemblyName>
-    <Version>0.0.1-preview.1.0.2</Version>
+    <AssemblyName>EarlyFuncPack.Http.Engine.InOut.Failure</AssemblyName>
+    <Version>0.0.1-preview.1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,10 +19,6 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="EarlyFuncPack.Core.Enumeration.Extensions" Version="0.1.1" />
   </ItemGroup>
 
 </Project>

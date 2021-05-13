@@ -4,11 +4,11 @@ using static System.FormattableString;
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderSuccess<T>
+    partial struct HttpSenderSuccess<TContent>
     {
         public override string ToString()
             =>
-            Invariant($"A HTTP sender success response of {typeof(T).Name}: {{ StatusCode: {StatusCode}, Content: \"{ContentToString()}\" }}");
+            Invariant($"An HTTP sender success response of {typeof(TContent).Name}: {{ StatusCode: {StatusCode}, Content: \"{ContentToString()}\" }}");
 
         private string ContentToString()
             =>

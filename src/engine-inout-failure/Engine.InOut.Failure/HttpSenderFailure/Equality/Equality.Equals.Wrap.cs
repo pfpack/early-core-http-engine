@@ -2,10 +2,10 @@
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderSuccess<TContent>
+    partial struct HttpSenderFailure
     {
         public override bool Equals(object? obj)
             =>
-            obj is HttpSenderSuccess<TContent> other && Equals(other);
+            obj is HttpSenderFailure other && Equals(other);
     }
 }

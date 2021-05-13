@@ -2,9 +2,9 @@
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderSuccess<T>
+    partial struct HttpSenderSuccess<TContent>
     {
-        public bool Equals(HttpSenderSuccess<T> other)
+        public bool Equals(HttpSenderSuccess<TContent> other)
             =>
             StatusCodeComparer.Equals(StatusCode, other.StatusCode) && ContentComparer.Equals(Content, other.Content);
     }

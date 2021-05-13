@@ -7,13 +7,14 @@
     <Authors>Andrei Sergeev, Pavel Moskovoy</Authors>
     <Description>PrimeFuncPack: A Functional Programming Pack for .NET</Description>
     <Copyright>Copyright © 2021 Andrei Sergeev, Pavel Moskovoy</Copyright>
-    <RootNamespace>PrimeFuncPack.Http.Engine.InOut.Success.Tests</RootNamespace>
-    <AssemblyName>EarlyFuncPack.Http.Engine.InOut.Success.Tests</AssemblyName>
+    <RootNamespace>PrimeFuncPack.Http.Engine.InOut.Failure.Tests</RootNamespace>
+    <AssemblyName>EarlyFuncPack.Http.Engine.InOut.Failure.Tests</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EarlyFuncPack.Http.Engine.InOut.Success" Version="0.0.1-preview.1.0.1" />
+    <PackageReference Include="EarlyFuncPack.Http.Engine.InOut.Failure" Version="0.0.1-preview.1.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="PrimeFuncPack.UnitTest.Data" Version="2.0.6" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">

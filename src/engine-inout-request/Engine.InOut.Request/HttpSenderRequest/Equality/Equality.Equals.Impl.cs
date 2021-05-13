@@ -2,9 +2,9 @@
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderRequest<T>
+    partial struct HttpSenderRequest<TContent>
     {
-        public bool Equals(HttpSenderRequest<T> other)
+        public bool Equals(HttpSenderRequest<TContent> other)
             =>
             VerbComparer.Equals(Verb, other.Verb) &&
             UriComparer.Equals(Uri, other.Uri) &&

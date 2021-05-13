@@ -4,11 +4,11 @@ using static System.FormattableString;
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderRequest<T>
+    partial struct HttpSenderRequest<TContent>
     {
         public override string ToString()
-        =>
-        Invariant($"A HTTP sender request of {typeof(T).Name}: {{ Verb: {Verb}, Uri: \"{Uri}\", Content: \"{ContentToString()}\" }}");
+            =>
+            Invariant($"An HTTP sender request of {typeof(TContent).Name}: {{ Verb: {Verb}, Uri: \"{Uri}\", Content: \"{ContentToString()}\" }}");
 
         private string ContentToString()
             =>

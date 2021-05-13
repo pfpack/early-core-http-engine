@@ -11,7 +11,7 @@
     <Copyright>Copyright © 2021 Andrei Sergeev, Pavel Moskovoy</Copyright>
     <RootNamespace>PrimeFuncPack</RootNamespace>
     <AssemblyName>EarlyFuncPack.Http.Engine.InOut.Success</AssemblyName>
-    <Version>0.0.1-preview.1.0.0</Version>
+    <Version>0.0.1-preview.1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

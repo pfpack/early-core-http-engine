@@ -4,9 +4,9 @@ using System;
 
 namespace PrimeFuncPack
 {
-    public readonly partial struct HttpSenderSuccess<T> : IEquatable<HttpSenderSuccess<T>>
+    public readonly partial struct HttpSenderSuccess<TContent> : IEquatable<HttpSenderSuccess<TContent>>
     {
-        public HttpSenderSuccess(HttpSenderSuccessCode statusCode, T? content)
+        public HttpSenderSuccess(HttpSenderSuccessCode statusCode, TContent? content)
         {
             StatusCode = statusCode;
             Content = content;
@@ -14,6 +14,6 @@ namespace PrimeFuncPack
 
         public HttpSenderSuccessCode StatusCode { get; }
 
-        public T? Content { get; }
+        public TContent? Content { get; }
     }
 }

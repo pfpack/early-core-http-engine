@@ -2,13 +2,13 @@
 
 namespace PrimeFuncPack
 {
-    partial struct HttpSenderSuccess<T>
+    partial struct HttpSenderSuccess<TContent>
     {
-        public static bool operator ==(HttpSenderSuccess<T> left, HttpSenderSuccess<T> right)
+        public static bool operator ==(HttpSenderSuccess<TContent> left, HttpSenderSuccess<TContent> right)
             =>
             left.Equals(right);
 
-        public static bool operator !=(HttpSenderSuccess<T> left, HttpSenderSuccess<T> right)
+        public static bool operator !=(HttpSenderSuccess<TContent> left, HttpSenderSuccess<TContent> right)
             =>
             left.Equals(right) is false;
     }
